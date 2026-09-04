@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="Glauka Technologies">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0284c7"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="48" height="48" rx="11" fill="url(#g)"/>
+  <g transform="translate(11 11) scale(1.083)">
+    <path d="M12 2a10 10 0 0 0-7 17.14V22h14v-2.86A10 10 0 0 0 12 2z" fill="#ffffff"/>
+    <circle cx="9" cy="9" r="2.1" fill="#0b4c73"/>
+    <circle cx="15" cy="9" r="2.1" fill="#0b4c73"/>
+    <path d="m10 13.2 2 2 2-2" fill="none" stroke="#0b4c73" stroke-width="1.8"
+          stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
