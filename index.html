@@ -9,9 +9,11 @@
   <link rel="canonical" href="https://glauka.space/" />
   <meta name="theme-color" content="#07090e" />
 
-  <!-- Icons -->
+  <!-- Icons: SVG where supported, PNG fallback for pre-16 Safari.
+       apple-touch-icon must be a real PNG; Safari will not render an SVG here. -->
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
-  <link rel="apple-touch-icon" href="assets/favicon.svg" />
+  <link rel="icon" href="assets/favicon-32.png" type="image/png" sizes="32x32" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
 
   <!-- Social preview -->
   <meta property="og:type" content="website" />
@@ -931,7 +933,7 @@
       <div class="grid">
         <!-- Division 1: GaiaScope -->
         <div class="card" id="gaiascope">
-          <img src="assets/images/earth_observation.jpg" width="1376" height="768" loading="lazy" decoding="async" alt="GaiaScope Earth Intelligence" class="card-img" />
+          <img src="assets/images/gaiascope_fields.jpg" width="720" height="375" loading="lazy" decoding="async" alt="GaiaScope Earth Intelligence" class="card-img" />
           <span class="card-tag tag-active">Operational Line</span>
           <h3>GaiaScope&trade;</h3>
           <p>
@@ -986,7 +988,7 @@
           We reject speculative black-box claims. Every GaiaScope output preserves native sensor support, exposes data uncertainty, and requires real field corroboration before promoting models.
         </p>
         <p class="banner-note">
-          Supported under the ESA BIC Greece framework, connecting Copernicus Sentinel constellation data with boots-on-the-ground precision.
+          Built directly on Copernicus Sentinel constellation data, connecting open satellite observation with boots-on-the-ground precision.
         </p>
       </div>
       <div class="metric-box">

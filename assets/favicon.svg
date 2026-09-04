@@ -8,8 +8,10 @@
   <rect width="48" height="48" rx="11" fill="url(#g)"/>
   <g transform="translate(11 11) scale(1.083)">
     <path d="M12 2a10 10 0 0 0-7 17.14V22h14v-2.86A10 10 0 0 0 12 2z" fill="#ffffff"/>
-    <circle cx="9" cy="9" r="2.1" fill="#0b4c73"/>
-    <circle cx="15" cy="9" r="2.1" fill="#0b4c73"/>
+    <circle cx="9" cy="9" r="2.3" fill="#0b4c73"/>
+    <circle cx="15" cy="9" r="2.3" fill="#0b4c73"/>
+    <circle cx="9" cy="8.35" r="0.85" fill="#ffffff"/>
+    <circle cx="15" cy="8.35" r="0.85" fill="#ffffff"/>
     <path d="m10 13.2 2 2 2-2" fill="none" stroke="#0b4c73" stroke-width="1.8"
           stroke-linecap="round" stroke-linejoin="round"/>
   </g>
