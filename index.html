@@ -321,6 +321,54 @@
       line-height: 1.6;
     }
 
+    .card-img {
+      width: 100%;
+      height: 190px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 18px;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      display: block;
+    }
+
+    .hero-visual {
+      margin-top: 56px;
+      position: relative;
+      border-radius: 16px;
+      overflow: hidden;
+      border: 1px solid rgba(56, 189, 248, 0.25);
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6), 0 0 40px rgba(56, 189, 248, 0.15);
+      max-width: 1100px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .hero-visual img {
+      width: 100%;
+      height: 480px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .hero-visual-caption {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 16px 24px;
+      background: linear-gradient(to top, rgba(7, 9, 14, 0.95) 0%, rgba(7, 9, 14, 0.6) 60%, transparent 100%);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .hero-visual-caption strong {
+      color: var(--text);
+    }
+
     /* Philosophy Feature Banner */
     .banner {
       background: linear-gradient(135deg, rgba(15, 23, 42, 0.8), rgba(30, 41, 59, 0.5));
@@ -413,6 +461,9 @@
     }
 
     @media (max-width: 768px) {
+      .hero-visual img {
+        height: 240px;
+      }
       .banner {
         grid-template-columns: 1fr;
         padding: 30px;
@@ -473,6 +524,15 @@
         <a href="#gaiascope" class="btn-primary">Explore GaiaScope</a>
         <a href="mailto:info@glauka.space" class="btn-secondary">Request Briefing</a>
       </div>
+
+      <!-- Hero Visual Showcase -->
+      <div class="hero-visual">
+        <img src="assets/images/earth_observation.jpg" alt="High-Resolution Earth Observation & Multispectral Analytics" />
+        <div class="hero-visual-caption">
+          <span><strong>Glauka Orbital Analytics:</strong> High-Resolution Multi-Temporal Crop & Terrain Monitoring</span>
+          <span>Sentinel-2 L2A &bull; 10m Native Support</span>
+        </div>
+      </div>
     </section>
 
     <!-- Divisions / Business Lines -->
@@ -485,6 +545,7 @@
       <div class="grid">
         <!-- Division 1: GaiaScope -->
         <div class="card" id="gaiascope">
+          <img src="assets/images/earth_observation.jpg" alt="GaiaScope Earth Intelligence" class="card-img" />
           <span class="card-tag tag-active">Operational Line</span>
           <h3>GaiaScope™</h3>
           <p>
@@ -494,6 +555,7 @@
 
         <!-- Division 2: Spacecraft & Payloads -->
         <div class="card">
+          <img src="assets/images/cubesat_orbit.jpg" alt="Glauka Orbital SmallSat Systems" class="card-img" />
           <span class="card-tag tag-rd">R&D Roadmap</span>
           <h3>Glauka Orbital & Payloads</h3>
           <p>
@@ -503,6 +565,7 @@
 
         <!-- Division 3: Propulsion & Space Systems -->
         <div class="card">
+          <img src="assets/images/plasma_propulsion.jpg" alt="Glauka In-Space Propulsion" class="card-img" />
           <span class="card-tag tag-future">Advanced Research</span>
           <h3>Glauka Propulsion</h3>
           <p>
@@ -545,9 +608,9 @@
 
     <!-- Heritage & Name Origin -->
     <section class="heritage" id="heritage">
-      <h3>The Heritage of Glauka (Γλαύκα)</h3>
+      <h3>Name Origin & Inspiration</h3>
       <p>
-        Named after the sacred owl of Athena (*Athene noctua*)—the symbol of strategic wisdom, keen insight, and the vision to see clearly through atmospheric darkness. Glauka Technologies channels that ancient standard into modern aerospace and Earth exploration.
+        The company name derives from <em>Athene noctua</em> (Γλαύκα), the classical symbol of Athena associated with acute perception and clarity of sight. In our work, this represents our engineering focus: transforming raw orbital and sensor data into verified, high-fidelity intelligence for Earth and space.
       </p>
     </section>
   </main>
